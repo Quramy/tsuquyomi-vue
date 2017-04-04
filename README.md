@@ -1,6 +1,6 @@
 # tsuquyomi-vue
 
-An extension of [Quramy/tsuquyomi](https://github.com/Quramy/tsuquyomi).
+An extension of [Quramy/tsuquyomi](https://github.com/Quramy/tsuquyomi) to integrate Vim with [Vue.js Single File Components](https://vuejs.org/v2/guide/single-file-components.html).
 This allows to open a `.vue` file as a TypeScript source file.
 
 ## How to use
@@ -8,7 +8,7 @@ This allows to open a `.vue` file as a TypeScript source file.
 
 1. Install [Quramy/tsuquyomi](https://github.com/Quramy/tsuquyomi#how-to-install) into your vim.
 1. Install [vue-ts-plugin](https://github.com/sandersn/vue-ts-plugin) into your project.
-1. (Optional) Install [posva/vim-vue] into your vim.
+1. (Optional) Install [posva/vim-vue](https://github.com/posva/vim-vue) into your vim.
 
 ### Install
 
@@ -41,9 +41,11 @@ and `:NeoBundleInstall`.
 ```vim
 " .vimrc
 
-NeoBundle 'Quramy/tsuquyomi'
 NeoBundle 'posva/vim-vue'
+NeoBundle 'Quramy/tsuquyomi'
 NeoBundle 'Quramy/tsuquyomi-vue'
+
+autocmd BufNewFile,BufRead *.vue set filetype=vue
 ```
 
 - tsconfig.json
