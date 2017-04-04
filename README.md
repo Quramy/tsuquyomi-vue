@@ -3,6 +3,8 @@
 An extension of [Quramy/tsuquyomi](https://github.com/Quramy/tsuquyomi) to integrate Vim with [Vue.js Single File Components](https://vuejs.org/v2/guide/single-file-components.html).
 This allows to open a `.vue` file as a TypeScript source file.
 
+![capture](capture.gif)
+
 ## How to use
 ### Requirements
 
