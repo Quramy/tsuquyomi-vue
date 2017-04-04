@@ -7,8 +7,9 @@ This allows to open a `.vue` file as a TypeScript source file.
 ### Requirements
 
 1. Install [Quramy/tsuquyomi](https://github.com/Quramy/tsuquyomi#how-to-install) into your vim.
-1. Install [vue-ts-plugin](https://github.com/sandersn/vue-ts-plugin) into your project.
 1. (Optional) Install [posva/vim-vue](https://github.com/posva/vim-vue) into your vim.
+1. Install `typescript@^2.2.1` into your project.
+1. Install [vue-ts-plugin](https://github.com/sandersn/vue-ts-plugin) into your project and configure `tsconfig.json`.
 
 ### Install
 
